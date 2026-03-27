@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="text-gray-700 text-sm px-4 sm:px-8 lg:px-[5%] pt-20">
+      <footer className="text-gray-700 text-sm px-[8%] md:px-[6%] pt-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 py-10">
           <div className="flex items-center gap-4">
             <i className="bi bi-truck text-5xl text-yellow-500"></i>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 py-20 border-t border-yellow-500">
+        <div className="grid grid-cols-1o md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 py-20 border-t border-yellow-500">
           <div className="space-y-2">
             <a href="#">
               <h2 className="text-5xl font-bricolage text-black font-bold">
@@ -113,10 +113,10 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <p className="text-center text-xl text-gray-600 border-t border-yellow-500 py-5">
+        <p className="text-center text-lg md:text-xl text-gray-600 border-t border-yellow-500 py-5">
           ©️ 2025. All Rights Reserved. By{" "}
           <a href="#" className="text-yellow-500 font-bold">
-            K2infocom
+            kitsuneCodes
           </a>
         </p>
       </footer>

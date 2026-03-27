@@ -9,7 +9,7 @@ import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 
-import heroImg from "../../assets/hero.png";
+import heroImg1 from "../../assets/hero.png";
 import heroImg2 from "../../assets/hero-2.png";
 import heroImg3 from "../../assets/hero-3.png";
 
@@ -73,49 +73,49 @@ const Home = () => {
           >
             <SwiperSlide>
               <div className="hero flex gap-8">
-                <div className="hero-content flex flex-col justify-start items-start w-1/2 py-10">
+                <div className="hero-content flex flex-col justify-start items-start gap-3 w-1/2 py-10">
                   <h1 className="text-8xl font-bricolage">
                     THE NEW <br /> STANDARD
                   </h1>
-                  <h5 className="font-bold text-xl">
+                  <h5 className="font-bold text-lg md:text-xl">
                     UNDER FAVORABLE SMARTWATCHES
                   </h5>
-                  <span className="hero-span text-3xl text-gray-800 font-semibold mt-3">
+                  <span className="hero-span text-xl md:text-3xl text-gray-800 font-semibold mt-3">
                     FROM <br />
-                    <div className="text-4xl font-bold text-gray-800">
+                    <div className="text-3xl md:text-4xl font-bold text-gray-800">
                       <sup>$</sup>
                       748
                       <sup>99</sup>
                     </div>
                   </span>
-                  <button className="bg-yellow-400 px-[10%] py-3 rounded-md font-semibold text-xl mt-5 hover:bg-yellow-500 transition">
+                  <button className="bg-yellow-400 px-[10%] py-3 rounded-md font-semibold text-md md:text-xl mt-5 hover:bg-yellow-500 transition">
                     Start Buying
                   </button>
                 </div>
-                <div className="hero-image hide w-1/2 flex items-end py-20">
-                  <img src={heroImg} alt="" />
+                <div className="hero-image hide w-1/2 py-20">
+                  <img src={heroImg1} alt="" />
                 </div>
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="hero flex gap-8">
-                <div className="hero-content flex flex-col justify-start items-start w-1/2 py-10">
+                <div className="hero-content flex flex-col justify-start items-start gap-3 w-1/2 py-10">
                   <h1 className="text-8xl font-bricolage">
                     THE NEW <br /> STANDARD
                   </h1>
-                  <h5 className="font-bold text-xl">
+                  <h5 className="font-bold text-lg md:text-xl">
                     UNDER FAVORABLE SMARTWATCHES
                   </h5>
-                  <span className="hero-span text-3xl text-gray-800 font-semibold mt-3">
+                  <span className="hero-span text-xl md:text-3xl text-gray-800 font-semibold mt-3">
                     FROM <br />
-                    <div className="text-4xl font-bold text-gray-800">
+                    <div className="text-3xl md:text-4xl font-bold text-gray-800">
                       <sup>$</sup>
                       748
                       <sup>99</sup>
                     </div>
                   </span>
-                  <button className="bg-yellow-400 px-[10%] py-3 rounded-md font-semibold text-xl mt-5 hover:bg-yellow-500 transition">
+                  <button className="bg-yellow-400 px-[10%] py-3 rounded-md font-semibold text-md md:text-xl mt-5 hover:bg-yellow-500 transition">
                     Start Buying
                   </button>
                 </div>
@@ -127,22 +127,22 @@ const Home = () => {
 
             <SwiperSlide>
               <div className="hero flex gap-8">
-                <div className="hero-content flex flex-col justify-start items-start w-1/2 py-10">
+                <div className="hero-content flex flex-col justify-start items-start gap-3 w-1/2 py-10">
                   <h1 className="text-8xl font-bricolage">
                     THE NEW <br /> STANDARD
                   </h1>
-                  <h5 className="font-bold text-xl">
+                  <h5 className="font-bold text-lg md:text-xl">
                     UNDER FAVORABLE SMARTWATCHES
                   </h5>
-                  <span className="hero-span text-3xl text-gray-800 font-semibold mt-3">
+                  <span className="hero-span text-xl md:text-3xl text-gray-800 font-semibold mt-3">
                     FROM <br />
-                    <div className="text-4xl font-bold text-gray-800">
+                    <div className="text-3xl md:text-4xl font-bold text-gray-800">
                       <sup>$</sup>
                       748
                       <sup>99</sup>
                     </div>
                   </span>
-                  <button className="bg-yellow-400 px-[10%] py-3 rounded-md font-semibold text-xl mt-5 hover:bg-yellow-500 transition">
+                  <button className="bg-yellow-400 px-[10%] py-3 rounded-md font-semibold text-md md:text-xl mt-5 hover:bg-yellow-500 transition">
                     Start Buying
                   </button>
                 </div>
@@ -156,15 +156,15 @@ const Home = () => {
       </div>
 
       {/* Banners */}
-      <div className="px-[5%] py-20">
+      <div className="px-[8%] md:px-[6%] py-20">
         <div
-          className="banner-1 flex flex-col justify-center gap-5 bg-cover bg-center rounded-xl p-6 md:p-8 h-[350px] sm:[430px]"
+          className="banner-1 flex flex-col justify-center gap-5 bg-cover bg-center rounded-xl p-6 md:p-8 h-[250px] md:h-[350px]"
           style={{ backgroundImage: `url(${banner5})` }}
         >
-          <small className="bg-yellow-500 text-white text-xl px-4 py-2 w-fit rounded-md rounded-tl-none">
+          <small className="bg-yellow-500 text-white text-lg md:text-xl px-4 py-2 w-fit rounded-md rounded-tl-none">
             EXCLUSIVE HEADPHONE
           </small>
-          <h3 className="text-7xl font-semibold  font-bricolage">
+          <h3 className="text-5xl md:text-7xl font-semibold  font-bricolage">
             Release Date & Price
           </h3>
           <p className="text-2xl">Today's Super Offer</p>
@@ -230,19 +230,18 @@ const Home = () => {
       </div>
 
       {/* Section Title */}
-      <div className="section-title px-[5%] my-10">
+      <div className="section-title px-[8%] md:px-[6%] my-10">
         <span className="text-xl font-semibold bg-yellow-300 px-5 py-2 rounded-full">
           Our Products
         </span>
-        <h1 className="text-5xl font-bold font-bricolage mt-5">
+        <h1 className="text-3xl md:text-5xl font-bold font-bricolage mt-5">
           Popular Products
         </h1>
       </div>
 
       {/* Products */}
       <div
-        className="product-wrapper px-[5%]
-       py-10 grid grid-cols-1 lg:grid-cols-4 gap-6"
+        className="product-wrapper px-[8%] md:px-[6%] pt-0 pb-10 md:py-10 grid grid-cols-1 lg:grid-cols-4 gap-6"
       >
         {/* Special offer card */}
         <div className="bg-white border-2 border-yellow-400 p-6 product-banner-wrap rounded-xl flex flex-col items-center justify-center text-center relative">
@@ -285,7 +284,7 @@ const Home = () => {
 
         {/* Products Cards */}
         <div className="lg:col-span-3">
-          <div className="grid product-wrap grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {products.slice(0, 8).map((product) => (
               <div
                 key={product.Id}
@@ -341,17 +340,17 @@ const Home = () => {
       </div>
 
       {/* Section Title */}
-      <div className="section-title px-[5%] my-10">
+      <div className="section-title px-[8%] md:px-[6%] my-10">
         <span className="text-xl font-semibold bg-yellow-300 px-5 py-2 rounded-full">
           Best Deals
         </span>
-        <h1 className="text-5xl font-bold font-bricolage mt-5">
+        <h1 className="text-3xl md:text-5xl font-bold font-bricolage mt-5">
           Our Best Deals
         </h1>
       </div>
 
       {/* Best Deals */}
-      <div className="px-[5%] py-20">
+      <div className="px-[8%] md:px-[6%] pt-0 pb-20 md:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {products.slice(0, 4).map((product) => (
@@ -530,11 +529,11 @@ const Home = () => {
       </div>
 
       {/* Section Title */}
-      <div className="section-title px-[5%] my-10">
+      <div className="section-title px-[8%] md:px-[6%] mb-5 md:my-10 ">
         <span className="text-xl font-semibold bg-yellow-300 px-5 py-2 rounded-full">
           Best Sales
         </span>
-        <h1 className="text-5xl font-bold font-bricolage mt-5">
+        <h1 className="text-3xl md:text-5xl font-bold font-bricolage mt-5">
           Our Best Sales
         </h1>
       </div>
@@ -991,13 +990,13 @@ const Home = () => {
       </div>
 
       {/* Banner 2 */}
-      <div className="px-[5%] py-10">
+      <div className="px-[8%] md:px-[6%] py-10">
         <div
           className="banner-1 flex flex-col justify-center gap-5 bg-cover bg-center rounded-xl md:p-8"
           style={{ backgroundImage: `url(${bannerImg2})` }}
         >
           <div className="flex items-center gap-4">
-            <h3 className="text-4xl font-light font-bricolage">
+            <h3 className="text-2xl md:text-4xl font-light font-bricolage p-5 md:p-0">
               SHOP AND <span className="font-bold"> SAVE BIG</span> ON HOTTEST
               TABLETS
             </h3>
@@ -1015,7 +1014,7 @@ const Home = () => {
       </div>
 
       {/* Brands */}
-      <div className="px-[5%] py-10">
+      <div className="px-[8%] md:px-[6%] py-10">
         <Swiper
           slidesPerView={2}
           spaceBetween={20}
@@ -1103,18 +1102,18 @@ const Home = () => {
       </div>
 
       {/* Section Title */}
-      <div className="section-title px-[5%] my-10">
+      <div className="section-title px-[8%] md:px-[6%] my-10">
         <span className="text-xl font-semibold bg-yellow-300 px-5 py-2 rounded-full">
           Top Products
         </span>
-        <h1 className="text-5xl font-bold font-bricolage mt-5">
+        <h1 className="text-3xl md:text-5xl font-bold font-bricolage mt-5">
           Our Top Products
         </h1>
       </div>
 
       {/* Top Products */}
-      <div className="px-[5%] py-10">
-        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-8">
+      <div className="px-[8%] md:px-[6%] pt-0 md:py-10">
+        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-8 pb-20 md:pb-0">
           {/* col 1 */}
           <div>
             <h2 className="top-product text-xl font-bricolage font-semibold border-b border-yellow-200">

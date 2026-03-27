@@ -65,7 +65,7 @@ const Blog = () => {
       </div>
 
       {/* Blog Section */}
-      <div className="w-full py-16 px-[5%] bg-gray-50 text-gray-900">
+      <div className="w-full py-16 px-[8%] md:px-[6%] bg-gray-50 text-gray-900">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
           {/* Blog List */}
           <div className="lg:col-span-8 space-y-12">

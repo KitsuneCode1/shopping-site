@@ -19,10 +19,10 @@ const Shop = () => {
       </div>
 
       {/* Products */}
-      <div className="product-wrapper px-[5%] py-10 grid grid-cols-1 lg:grid-cols-4 gap-6">
+      <div className="product-wrapper px-[8%] md:px-[6%] py-10 grid grid-cols-1 lg:grid-cols-4 gap-6">
         {/* Product Cards */}
         <div className="lg:col-span-3">
-          <div className="grid product-wrap grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {products.slice(0, 16).map((product) => (
               <div
                 key={product.Id}

@@ -44,7 +44,7 @@ const Checkout = () => {
 
   return (
     <>
-      <div className="min-h-screen px-[5%] lg:px-[8%] py-14 bg-white text-gray-800">
+      <div className="min-h-screen px-[8%] md:px-[6%] py-14 bg-white text-gray-800">
         <h1 className="text-5xl font-bricolage font-semibold text-center mb-10">
           Checkout
         </h1>

@@ -22,7 +22,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="w-full flex- flex-col justify-center items-center relative">
+      <nav className="w-full flex flex-col justify-center items-center relative">
         {/* Top Bar */}
         <div className="top-nav w-full flex justify-between items-center bg-black text-white px-[5%] py-3 text-sm">
           <div className="flex w-1/2 gap-5 items-center">
@@ -166,7 +166,7 @@ const Nav = () => {
               </ul>
             )}
           </div>
-          <ul className="flex gap-10 w-2/5 nav-menu font-bold">
+          <ul className="flex gap-4 md:gap-10 w-2/5 nav-menu font-bold">
             <li>
               <Link
                 to="/"

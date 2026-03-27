@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="w-full bg-white text-gray-900 px-[5%] pt-20 pb-16">
+      <div className="w-full bg-white text-gray-900 px-[8%] md:px-[6%] pt-20 pb-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 item-start gap-16">
           <div className="lg:col-span-2">
             <h2 className="text-3xl font-bold mb-2 text-gray-800 font-bricolage">
@@ -31,6 +31,12 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="First Name"
+                  className="border border-gray-300 rounded-xl px-5 py-3 w-full focus:ouline-none focus:ring-2 focus:ring-yellow-400 shadow-sm transition"
+                />
+
+                <input
+                  type="text"
+                  placeholder="Surname"
                   className="border border-gray-300 rounded-xl px-5 py-3 w-full focus:ouline-none focus:ring-2 focus:ring-yellow-400 shadow-sm transition"
                 />
               </div>

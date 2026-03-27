@@ -69,7 +69,7 @@ const Cart = () => {
 
   return (
     <>
-      <div className="px-4 sm:px-8 lg:px-[5%] py-12 bg-gray-50 text-gray-800 min-h-screen">
+      <div className="px-[8%] md:px-[6%] py-12 bg-gray-50 text-gray-800 min-h-screen">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12 text-yellow-600 font-bricolage">
           My Shopping Cart
         </h1>
@@ -102,7 +102,7 @@ const Cart = () => {
                       <i className="ri-close-line"></i>
                     </button>
                   </td>
-                  <td className="flex items-center gap-4 px-2 py-4">
+                  <td className="flex items-center gap-4 p-6">
                     <img
                       src={item.ProductsImage}
                       alt={item.Name}

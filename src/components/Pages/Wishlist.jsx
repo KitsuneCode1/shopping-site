@@ -39,7 +39,7 @@ const Wishlist = () => {
 
   return (
     <>
-      <div className="w-full px-4 sm:px-8 lg:px-[5%] py-12 bg-white text-gray-800">
+      <div className="w-full px-[8%] md:px-[6%] py-12 bg-white text-gray-800">
         <Toaster position="top-right" reverseOrder={false} />
 
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 font-bricolage">

@@ -27,15 +27,15 @@ const About = () => {
       </div>
 
       <div
-        className="relative flex items-center justify-center h-[60vh] sm:h-[70vh] bg-cover bg-center"
+        className="relative flex items-center justify-center h-[80vh] sm:h-[70vh] bg-cover bg-center"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="absolute inset-0 bg-black/80 backdrop-filter backdrop-blur-sm">
-          <div className="relative z-10 text-center text-white px-[5%] py-[10%]">
+          <div className="relative z-10 text-center text-white px-[8%] md:px-[6%] pt-[30%] md:py-[10%]">
             <p className="uppercase tracking-widest text-xs sm:text-sm text-gray-300 mb-2">
               Who We Are
             </p>
-            <h2 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4 font-bricolage">
+            <h2 className="text-3xl sm:text-4xl md:text-7xl font-bold mb-1 md:mb-4 font-bricolage">
               About Us
             </h2>
             <div className="w-32 h-[2px] bg-yellow-599 mx-auto mb-4"></div>
@@ -47,14 +47,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className="section-title px-[5%] my-10">
+      <div className="section-title px-[8%] md:px-[6%] my-10">
         <span className="text-xl font-semibold bg-yellow-300 px-5 py-2 rounded-full">
           Vision
         </span>
-        <h1 className="text-5xl font-bold font-bricolage mt-5">Our Vision</h1>
+        <h1 className="text-3xl md:text-5xl font-bold font-bricolage mt-5">Our Vision</h1>
       </div>
 
-      <div className="px-[5%] mt-16 mb-24">
+      <div className="px-[8%] md:px-[6%] mt-4 md:mt-16 mb-24">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {[
             {
@@ -93,7 +93,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 py-32 px-[5%]">
+      <div className="bg-gray-50 py-32 px-[8%] md:px-[6%]">
         <div className="flex flex-wrap justify-center gap-10 items-start text-center">
           {[
             {
@@ -139,7 +139,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bg-white py-20 px-[5%]">
+      <div className="bg-white py-20 px-[8%] md:px-[6%]">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-14">
           <div className="w-full lg:w-1/2">
             <div className="flex items-center gap-3 mb-4">

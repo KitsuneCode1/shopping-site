@@ -123,7 +123,7 @@ const ProductDetails = () => {
       </div>
 
       {/* Product Details */}
-      <div className="flex flex-col md:flex-row item-center gap-10 px-[7%] lg:px-[5%] py-20">
+      <div className="flex flex-col md:flex-row item-center gap-10 px-[8%] md:px-[6%] py-20">
         <div className="w-full md:w-1/2 flex gap-6 justify-between px-[80px] py-[50px] border rounded-xl shadow-md relative">
           {/* Main Image */}
           <div
@@ -210,7 +210,7 @@ const ProductDetails = () => {
       </div>
 
       {/* Policies */}
-      <div className="px-[7%] lg:px-[5%]">
+      <div className="px-[8%] md:px-[6%]">
         <h2 className="font-bricolage font-bold text-3xl mb-5">
           Shipping Policy
         </h2>
@@ -262,8 +262,8 @@ const ProductDetails = () => {
       </div>
 
       {/* Add Review */}
-      <div className="px-[7%] lg:px-[4%] py-[50px]">
-        <div className="px-[2%] py-[20px] border rounded-2xl shadow-lg">
+      <div className="px-[8%] md:px-[6%] py-[50px]">
+        <div className="px-[5%] md:px-[3%] py-[5%] md:py-[3%] border rounded-2xl shadow-lg">
           <h2 className="text-2xl font-bold mb-6 text-gray-800 font-bricolage">
             Add Review
           </h2>
@@ -320,7 +320,7 @@ const ProductDetails = () => {
       </div>
 
       {/* Brands */}
-      <div className="px-[5%] py-10">
+      <div className="px-[8%] md:px-[6%] py-10">
         <Swiper
           slidesPerView={2}
           spaceBetween={20}

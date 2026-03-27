@@ -66,6 +66,7 @@
   background-size: cover;
   overflow: hidden;
 }
+
 .hero-image img{
   width: 75%;
   height: 100%;
@@ -177,6 +178,21 @@
     margin-top: 20px;
   }
 
+  .hero-bg{
+    height: 100%;
+  }
+
+  .hero-image img{
+    width: 100%;
+  }
+
+  .hero-content h1{
+    font-size: 3rem;
+  }
+
+  .product-wrap{
+    grid-template-columns: repeat(1fr) !important;
+  }
 }
 
 /* Banner */

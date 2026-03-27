@@ -56,7 +56,7 @@ const FAQ = () => {
       </div>
 
       {/* Shipping Information Section */}
-      <section className="w-full px-5 py-16 bg-white text-gray-800">
+      <section className="w-full px-[8%] md:px-[6%] py-16 bg-white text-gray-800">
         <div className="text-center mb-10">
           <h1 className="text-4xl sm:text-6xl font-extrabold mt-3 mb-2 text-gray-800 font-bricolage">
             Frequently Asked Questions
@@ -87,7 +87,7 @@ const FAQ = () => {
       </section>
 
       {/* FAQ Accordion Section */}
-      <section className="w-full px-[5%] py-16 bg-white text-gray-900">
+      <section className="w-full px-[8%] md:px-[6%] py-16 bg-white text-gray-900">
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-6xl font-extrabold mt-3 mb-2 text-gray-800 font-bricolage">
             FAQ Second Version
@@ -120,7 +120,7 @@ const FAQ = () => {
                 </button>
 
                 <div
-                  className={`px-6 bg-white overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? "max-h-40 py-3 opacity-100" : "max-h-0 opacity-0"}`}
+                  className={`px-6 bg-white overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? "max-h-80 py-3 opacity-100" : "max-h-0 opacity-0"}`}
                 >
                   <p className="text-sm text-gray-500 leading-relaxed">
                     {faq.answer}
