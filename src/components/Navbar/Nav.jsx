@@ -193,10 +193,10 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                to="/blogs"
+                to="/blog"
                 className="hover:text-yellow-500 text-xl transistion"
               >
-                Blogs
+                Blog
               </Link>
             </li>
             <li>
@@ -204,7 +204,7 @@ const Nav = () => {
                 to="/faq"
                 className="hover:text-yellow-500 text-xl transistion"
               >
-                Faq's
+                FAQ's
               </Link>
             </li>
             <li>

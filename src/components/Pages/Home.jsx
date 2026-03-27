@@ -881,7 +881,7 @@ const Home = () => {
             </div>
           </SwiperSlide>
 
-          {/* Slide 2 */}
+          {/* Slide 4 */}
           <SwiperSlide>
             <div className="flex flex-col">
               <div className="mb-3">
@@ -1117,11 +1117,116 @@ const Home = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-8">
           {/* col 1 */}
           <div>
-            <h2 className="top-product text-xl font-bricolage font-semibold border-b border-yellow-200">Featured Products</h2>
+            <h2 className="top-product text-xl font-bricolage font-semibold border-b border-yellow-200">
+              Featured Products
+            </h2>
             <div className="flex flex-col gap-5 mt-9">
-              
+              {products.slice(1, 4).map((product) => (
+                <div
+                  key={product.Id}
+                  className="bg-white shadow-md rounded-xl p-4 flex flex-col md:flex-row items-start hover:shadow-xl transition duration-300 group border border-gray-100 cursor-pointer gap-4"
+                >
+                  <img
+                    src={product.ProductsImage}
+                    alt={product.Name}
+                    className="w-4/5 h-32 object-contain group-hover:scale-105 transition-transform duration-300"
+                    onClick={() => navigate(`/product/${product.Id}`)}
+                  />
+
+                  <div className="flex flex-col">
+                    <h4
+                      onClick={() => navigate(`/product/${product.Id}`)}
+                      className="text-lg font-medium mt-3 text-yellow-800 hover:underline line-clamp-2"
+                    >
+                      {product.Name}
+                    </h4>
+
+                    <div className="flex mt-5 items-center justify-between w-full">
+                      <div className="text-lg font-semibold mt-1">
+                        ${product.Price}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
+
+          {/* col 2 */}
+          <div>
+            <h2 className="top-product text-xl font-bricolage font-semibold border-b border-yellow-200">
+              Onsale Products
+            </h2>
+            <div className="flex flex-col gap-5 mt-9">
+              {products.slice(5, 8).map((product) => (
+                <div
+                  key={product.Id}
+                  className="bg-white shadow-md rounded-xl p-4 flex flex-col md:flex-row items-start hover:shadow-xl transition duration-300 group border border-gray-100 cursor-pointer gap-4"
+                >
+                  <img
+                    src={product.ProductsImage}
+                    alt={product.Name}
+                    className="w-4/5 h-32 object-contain group-hover:scale-105 transition-transform duration-300"
+                    onClick={() => navigate(`/product/${product.Id}`)}
+                  />
+
+                  <div className="flex flex-col">
+                    <h4
+                      onClick={() => navigate(`/product/${product.Id}`)}
+                      className="text-lg font-medium mt-3 text-yellow-800 hover:underline line-clamp-2"
+                    >
+                      {product.Name}
+                    </h4>
+
+                    <div className="flex mt-5 flex-row items-center justify-between w-full">
+                      <div className="text-lg font-semibold mt-1">
+                        ${product.Price}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* col 3 */}
+          <div>
+            <h2 className="top-product text-xl font-bricolage font-semibold border-b border-yellow-200">
+              Top Rated Products
+            </h2>
+            <div className="flex flex-col gap-5 mt-9">
+              {products.slice(9, 12).map((product) => (
+                <div
+                  key={product.Id}
+                  className="bg-white shadow-md rounded-xl p-4 flex flex-col md:flex-row items-start hover:shadow-xl transition duration-300 group border border-gray-100 cursor-pointer gap-4"
+                >
+                  <img
+                    src={product.ProductsImage}
+                    alt={product.Name}
+                    className="w-4/5 h-32 object-contain group-hover:scale-105 transition-transform duration-300"
+                    onClick={() => navigate(`/product/${product.Id}`)}
+                  />
+
+                  <div className="flex flex-col">
+                    <h4
+                      onClick={() => navigate(`/product/${product.Id}`)}
+                      className="text-lg font-medium mt-3 text-yellow-800 hover:underline line-clamp-2"
+                    >
+                      {product.Name}
+                    </h4>
+
+                    <div className="flex mt-5 flex-row items-center justify-between w-full">
+                      <div className="text-lg font-semibold mt-1">
+                        ${product.Price}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <img src={bannerCard1} className="w-full object-contain" alt="" />
         </div>
       </div>
     </>
